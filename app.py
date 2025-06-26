@@ -4,7 +4,8 @@ import numpy as np
 import joblib
 
 # Load the trained Parkinson’s model
-model = joblib.load("parkinsons_model.pkl")
+model = joblib.load("idiopathic_parkinsons_model.pkl")
+
 
 # Web page title
 st.set_page_config(page_title="Parkinson's Prediction", layout="centered")
